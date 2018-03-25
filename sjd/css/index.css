@@ -1,0 +1,228 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 50px; }
+
+body {
+  font-family: 微软雅黑;
+  font-size: 0.14rem;
+  margin: 0 auto;
+  color: #666666; }
+
+a {
+  text-decoration: none;
+  color: #6e6e6e; }
+
+ul {
+  list-style: none; }
+
+a, input, textarea {
+  outline: none; }
+
+textarea {
+  resize: none; }
+
+header {
+  width: 100%; }
+  header .header {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-left: 0.15rem;
+    font-size: 0.24rem; }
+    header .header .city {
+      float: left; }
+    header .header img {
+      width: 0.24rem;
+      height: 0.12rem; }
+    header .header input {
+      width: 5.12rem;
+      height: 0.58rem;
+      background: #f4f4f4;
+      border: none;
+      border-radius: 0.5rem;
+      text-indent: 0.6rem;
+      margin-left: 0.25rem; }
+    header .header .zk {
+      width: 0.4rem;
+      height: 0.6rem;
+      line-height: 0.4rem;
+      margin-left: 0.2rem;
+      padding-top: 0.2rem;
+      float: right;
+      margin-right: 0.3rem; }
+    header .header .center {
+      position: relative;
+      float: left; }
+    header .header .fdj {
+      width: 0.3rem;
+      height: 0.3rem;
+      position: absolute;
+      top: 0.28rem;
+      left: 0.35rem; }
+
+.nav {
+  width: 100%;
+  margin-top: 0.14rem; }
+  .nav img {
+    height: 2rem; }
+
+.list {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 2.05rem;
+  clear: both;
+  border-bottom: 1px solid #ccc; }
+  .list ul {
+    margin: 0 0.15rem;
+    clear: both; }
+  .list img {
+    width: 0.93rem;
+    height: 0.95rem; }
+  .list li {
+    float: left;
+    margin-left: 0.5rem; }
+    .list li p {
+      text-align: center;
+      margin-top: 0.15rem; }
+  .list li:first-child {
+    margin-left: 0.2rem; }
+
+.list1 {
+  margin-top: 0.28rem;
+  width: 100%;
+  clear: both; }
+  .list1 ul {
+    margin: 0 0.28rem;
+    clear: both; }
+  .list1 img {
+    width: 0.5rem;
+    height: 0.4rem; }
+  .list1 li {
+    float: left;
+    margin-left: 1rem; }
+    .list1 li p {
+      text-align: center;
+      margin-top: 0.15rem; }
+  .list1 li:first-child {
+    margin-left: 0.2rem; }
+
+.list2 {
+  padding-top: 0.28rem;
+  width: 100%;
+  clear: both;
+  height: 1.42rem; }
+  .list2 ul {
+    margin: 0 0.28rem;
+    clear: both; }
+  .list2 img {
+    width: 0.5rem;
+    height: 0.4rem; }
+  .list2 li {
+    float: left;
+    margin-left: 1rem; }
+    .list2 li p {
+      text-align: center;
+      margin-top: 0.15rem; }
+  .list2 li:first-child {
+    margin-left: 0.2rem; }
+
+.line {
+  margin-top: 0.28rem;
+  clear: both;
+  width: 100%;
+  height: 0.25rem;
+  background: #efefef; }
+
+.nr {
+  margin-top: 0.24rem;
+  height: 2.36rem; }
+  .nr img {
+    width: 1.9rem;
+    margin-left: 0.2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.25rem; }
+  .nr .right {
+    float: left; }
+    .nr .right .name {
+      margin-top: 0.24rem;
+      font-size: 0.32rem;
+      font-weight: bold;
+      color: #000;
+      margin-top: 0.02rem; }
+    .nr .right .address {
+      color: #999999;
+      font-size: 0.24rem;
+      margin-top: 0.02rem; }
+    .nr .right .price {
+      color: #06c1ae;
+      font-weight: bold;
+      font-size: 32px;
+      margin-top: 0.2rem; }
+      .nr .right .price span {
+        color: #999999;
+        font-size: 0.24rem; }
+
+.line1 {
+  width: 100%;
+  height: 0.02rem;
+  border: 0.02rem solid #e5e5e5; }
+
+.nr-footer {
+  height: 2.36rem;
+  padding-top: 0.22rem;
+  width: 100%; }
+  .nr-footer img {
+    width: 1.9rem;
+    height: 2rem;
+    float: left;
+    margin-right: 0.25rem;
+    margin-left: 0.2rem; }
+  .nr-footer .right {
+    float: left; }
+    .nr-footer .right .name {
+      margin-top: 0.24rem;
+      font-size: 0.32rem;
+      font-weight: bold;
+      color: #000;
+      margin-top: 0.02rem; }
+    .nr-footer .right .address {
+      color: #999999;
+      font-size: 0.24rem;
+      margin-top: 0.02rem; }
+    .nr-footer .right .price {
+      color: #06c1ae;
+      font-weight: bold;
+      font-size: 32px;
+      margin-top: 0.2rem; }
+      .nr-footer .right .price span {
+        color: #999999;
+        font-size: 0.24rem; }
+
+footer {
+  border-top: 0.01rem solid #000;
+  height: 0.98rem; }
+  footer .list1 {
+    width: 100%;
+    clear: both; }
+    footer .list1 ul {
+      margin: 0 0.28rem;
+      clear: both;
+      margin-bottom: 0.26rem; }
+    footer .list1 img {
+      width: 0.6rem;
+      height: 0.6rem; }
+    footer .list1 li {
+      float: left;
+      margin-left: 0.8rem; }
+      footer .list1 li p {
+        text-align: center;
+        margin-top: 0.1rem; }
+    footer .list1 li:first-child {
+      margin-left: 0.2rem; }
+
+/*# sourceMappingURL=index.css.map */
